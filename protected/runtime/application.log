@@ -1,0 +1,14 @@
+2014/07/28 08:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in H:\xampp-portable\htdocs\yii.loc\framework\gii\CCodeGenerator.php:90
+Stack trace:
+#0 H:\xampp-portable\htdocs\yii.loc\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 H:\xampp-portable\htdocs\yii.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 H:\xampp-portable\htdocs\yii.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 H:\xampp-portable\htdocs\yii.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 H:\xampp-portable\htdocs\yii.loc\framework\web\CWebApplication.php(282): CController->run('code')
+#5 H:\xampp-portable\htdocs\yii.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/code')
+#6 H:\xampp-portable\htdocs\yii.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 H:\xampp-portable\htdocs\yii.loc\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii.loc/index.php?r=gii/model/code&id=0
+HTTP_REFERER=http://localhost/yii.loc/index.php?r=gii/model/index
+---
